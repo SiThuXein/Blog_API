@@ -53,7 +53,7 @@ class CategoriesController extends Controller
      */
     public function show($id)
     {
-        return Categoriess::where('id',$id)->get();
+        return Categories::where('id',$id)->get();
     }
 
   
